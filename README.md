@@ -26,4 +26,6 @@ D10: PWM fan demand output
 For the radiator and fan, you'll want to use some generic standoffs commonly found on Aliexpress, Amazon, or Ebay. These will all depend on your fan and radiator choices for what fits best. A 5mm standoff provides a sufficient gap between the board and radiator to allow airflow to pass through. After all, watercooling even a Raspberry Pi 5 is pointless and passive cooling alone is enough at the factory clockspeed. 
 \
 \
-I'll leave the code up to your own creativity, but as-is, the board will run the pump and fan at 100% duty cycle so there are no worries about needing to program the Arduino right away.
+I'll leave the code up to your own creativity, but as-is, the board will run the pump and fan at 100% duty cycle so there are no worries about needing to program the Arduino right away. \
+\
+License: UNLICENSE -- do what you want with it.
