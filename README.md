@@ -21,3 +21,9 @@ D2: Pump tachometer input \
 D6: Fan tachometer input \
 D9: PWM pump signal output \
 D10: PWM fan signal output
+\
+\
+For the radiator and fan, you'll want to use some generic standoffs commonly found on Aliexpress, Amazon, or Ebay. These will all depend on your fan and radiator choices for what fits best.
+\
+\
+I'll leave the code up to your own creativity, but as-is, the board will run the pump and fan at 100% duty cycle so there are no worries about needing to program the Arduino right away.
