@@ -19,8 +19,8 @@ A4: SDA for OLED screen (SSD1306 model) \
 A5: SCL for OLED screen (SSD1306 model) \
 D2: Pump tachometer input \
 D6: Fan tachometer input \
-D9: PWM pump signal output \
-D10: PWM fan signal output
+D9: PWM pump demand output \
+D10: PWM fan demand output
 \
 \
 For the radiator and fan, you'll want to use some generic standoffs commonly found on Aliexpress, Amazon, or Ebay. These will all depend on your fan and radiator choices for what fits best.
