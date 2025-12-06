@@ -25,7 +25,10 @@ D10: PWM fan demand output
 \
 For the radiator and fan, you'll want to use some generic standoffs commonly found on Aliexpress, Amazon, or Ebay. These will all depend on your fan and radiator choices for what fits best. A M3 5mm standoff provides a sufficient gap between the board and radiator to allow airflow to pass through. After all, watercooling even a Raspberry Pi 5 is pointless and passive cooling alone is enough at the factory clockspeed. 
 \
+## Code
+I have uploaded some sample code for you. When designing the board, I stupidly designed the tach pins where only one of the ports has an interrupt capability. This requires using the PinChangeInterrrupts library. I have attached the settings file for you to overwrite the one that is automatically downloaded, then it will properly display the fan tachometer. This code is fully tested working for fan and pump control. \ 
+See picture below for the screen layout:
 \
-I'll leave the code up to your own creativity, but as-is, the board will run the pump and fan at 100% duty cycle so there are no worries about needing to program the Arduino right away. \
-\
-License: UNLICENSE -- do what you want with it.
+![oled](oled.jpg)
+## License
+UNLICENSE -- do what you want with it.
